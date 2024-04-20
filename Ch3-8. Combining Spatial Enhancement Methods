@@ -1,0 +1,8 @@
+앞에서 배운 방법들을 총 동원하여 이미지 개선에 활용
+1) ..
+2) Log transform
+3) power law transform
+4) contrast stretching (slicing)
+5) histogram equalization/spesification(matching)
+6) arthmetic/logic
+7) Spatial filter ex) Laplacian, Sobel, Roberts filter
