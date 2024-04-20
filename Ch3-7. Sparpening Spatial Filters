@@ -1,0 +1,16 @@
+- Sparpening 의 목적 : 이미지의 detail 을 강조하기 위한 것
+- average 하는 것은 integraton 을 하는 것 같지만, sharpening 은 차이를 이용하는 것이다.
+- digital image 의 1차 미분은 edge 를 더 강하게 하지만,  2차 미분은 step change 에 대해서 2차 응답을 보인다. 보통 2차 미분이 image enhancement 에 더 도움이 된다.
+
+"라플라시안"
+- 라플라시안 필터의 목적은 이미지를 개선하기 위해서 2차 미분을 사용하는 것이다.
+- 2단계를 통해서 진행되지만 1단계로 줄여서 표현할 수 있다.
+- 라플라시안 필터는 unsharp masking / high boost filtering 이라고도 표현할 수 있다.
+
+"Roberts Filter"
+- 라플라시안와 같이 1차 미분을 활용하는 필터이다.
+- 비대각선 방향만 -1,1 로 채워진 필터이다.
+
+"Sobel Filter"
+- 라플라시안와 같이 1차 미분을 활용하는 필터이다.
+- (3x3) 필터를 사용할 때 중간값이 0 으로 채워진다.
