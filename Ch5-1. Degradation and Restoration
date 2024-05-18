@@ -1,0 +1,7 @@
+이미지를 f(x,y) 로 표현할 수 있다고 하자.
+
+이미지를 복원 시키기 위한 modeling 으로,
+1) noise 를 줘서 이미지를 noising 하고
+2) restoration 을 해서 denoising 을 한다. (혹시 이게 denoising 기술..?)
+
+여기서 사용되는 noise 는 다양한 것들이 있을 수 있다.
